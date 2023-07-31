@@ -1,0 +1,117 @@
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root{
+
+    --first: #F95738;
+    --second: #E16F7C;
+    --third: #4A70D9;
+    --fourth:#B4ADEA;
+    --boton:#D7384B;
+    --textW: white;
+    --textB: black;
+    --fondo: #011627;
+}
+
+
+body{
+    background-color: var(--fondo);
+    background-image: url('../img/contacto2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    height: 100%;    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--textW);
+    margin:1em 0em .3em 0em;
+}
+
+.card-subtitle{
+    margin-top: .3em;
+}
+
+.fas{
+    margin-right: .3em;
+}
+
+.contenedor{
+    padding:0em .5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin-top: 2em;
+}
+
+.card{
+    margin: 0em 1em 1em 0em;
+    background-color: #243A78; 
+    background-image: url('../img/servicio2.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-blend-mode:multiply;
+    background-size: cover; 
+    color: var(--textW);
+    border-radius: 1em;
+    border-color: #243A78;
+}
+
+.card-subtitle{
+    color:#A07EF6;
+    margin: .5em 0;
+}
+
+.aviso{
+    color:var(--boton);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1em 0em;
+}
+
+
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+header img {
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.4;
+  }
+
+
+.bold{
+    font-weight: 500;
+    margin-bottom: 1em 0em;
+}
+
+.cursiva{
+    font-style: italic;
+    margin-bottom: 1em 0em;
+    color: var(--fourth);
+}
+
+
+aside{
+    color: var(--textW);
+    text-align: center;
+    margin-bottom: 50vh;
+    
+}
+
+.mayus{
+    text-transform: uppercase;
+  }
